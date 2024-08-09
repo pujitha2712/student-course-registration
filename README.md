@@ -31,3 +31,36 @@ To set up the project locally, follow these steps:
    ```bash
    python -m venv venv
 
+4. **Install the required packagest**
+    ```bash
+   pip install -r requirements.txt
+
+    
+5. Open weather_project/settings.py and add your API key and other configuration settings as needed.
+   
+6. **Run database migrations**
+    ```bash
+   python manage.py migrate
+7. **Start the development server**
+    ```bash
+    python manage.py runserver
+
+8.Visit the application
+Open your web browser and go to http://127.0.0.1:8000/ to see the application in action.
+Usage
+Student Registration: Navigate to the registration page to create a new student profile.
+Course Registration: Once logged in, go to the course registration page to enroll in courses.
+Admin Panel: Access the Django admin panel at http://127.0.0.1:8000/admin/ to manage students and courses. Default admin credentials can be created by running python manage.py createsuperuser and following the prompts.
+Contributing
+If you want to contribute to this project, please fork the repository and create a pull request with your changes. Make sure to follow the code style and conventions used in the project.
+
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+Contact
+For any questions or issues, please contact me at pujithadr@outlook.com.
+
+You can customize this README based on the specific features and setup of your project. Make sure to replace placeholder texts with your actual project details and instructions.
+
+
+

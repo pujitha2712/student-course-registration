@@ -23,3 +23,11 @@ To set up the project locally, follow these steps:
 
    ```bash
    git clone https://github.com/pujitha2712/student-course-registration.git
+
+2. **Navigate to the Project Directory**
+   ```bash
+   cd student-course-registration
+3. **Create a Virtual Environment**
+   ```bash
+   python -m venv venv
+

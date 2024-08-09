@@ -45,8 +45,9 @@ To set up the project locally, follow these steps:
     ```bash
     python manage.py runserver
 
-8.Visit the application
 Open your web browser and go to http://127.0.0.1:8000/ to see the application in action.
+
+
 Usage
 Student Registration: Navigate to the registration page to create a new student profile.
 Course Registration: Once logged in, go to the course registration page to enroll in courses.
